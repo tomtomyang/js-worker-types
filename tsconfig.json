@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "lib": ["ES2022"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "baseUrl": "./",
+    "typeRoots": ["./"],
+    "types": [],
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true
+  },
+  "files": ["index.d.ts"],
+  "include": ["lib/"],
+  "exclude": ["node_modules"]
+}
