@@ -1,22 +1,30 @@
 {
   "name": "js-worker-types",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "TypeScript typings for JS Worker Runtime",
   "types": "./index.d.ts",
   "author": "tomtomyang@tencent.com",
+  "license": "UNLICENSED",
   "keywords": [
-    "js",
-    "worker",
     "typescript",
+    "javascript",
+    "worker",
     "types"
   ],
   "files": [
+    "lib",
     "index.d.ts",
-    "lib/",
-    "README.md"
+    "README.md",
+    "README.zh-CN.md"
   ],
   "scripts": {},
   "dependencies": {},
   "devDependencies": {},
-  "private": false
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomtomyang/js-worker-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomtomyang/js-worker-types/issues"
+  }
 }
